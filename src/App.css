@@ -1,0 +1,18 @@
+.container {
+    background-color: #BB1233;
+    border-radius: 2%;
+    padding: 3%;
+    margin: auto;
+    width: 50%;
+}
+
+.App div button {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 3px 2px #2D2727; 
+    font-size: 15px;
+    color: white;
+    border: none;
+    margin: 1.5%;
+}

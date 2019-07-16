@@ -1,4 +1,5 @@
 import React from "react";
+import "./NumberButton.css";
 
 // const NumberButton = (props) => {
 //   return (
@@ -13,7 +14,7 @@ const NumberButton = ({ number }) => {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      <button>{number}</button>
+      <button className="numberButton">{number}</button>
     </>
   );
 };
